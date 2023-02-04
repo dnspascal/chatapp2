@@ -1,14 +1,16 @@
 import React from 'react'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import Apage from './pages/Apage'
+
 import Background from './pages/Background'
 import Register from './pages/register/Register'
+import Login from "./pages/login/Login"
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route element={<Background/>} path='/register'/>
+      <Route element={<Register />} path='/register'/>
+      <Route element={<Login/>} path={'/'} />
     </Routes>
     </BrowserRouter>
   )

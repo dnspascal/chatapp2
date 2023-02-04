@@ -8,7 +8,7 @@ function Background() {
 <div className="area" >
         <ul className="circles">
                 <li></li>
-               <Register/>
+               {/*<Register/>*/}
                 <li></li>
                 <li></li>
                 <li></li>

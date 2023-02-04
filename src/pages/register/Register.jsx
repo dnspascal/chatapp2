@@ -1,54 +1,57 @@
-import React from 'react'
-import './Register.css'
+import React from "react";
+import "./Register.css";
 function Register() {
   return (
-    <div className='register'>
+    <div className="register">
       <div className="form">
-        <div className='avatar'>
-          avatar
+        <div className="avatar">
+          <img src='chatapp.jpg' alt="chatapp" className="image" />
         </div>
-        <h2>Sign Up</h2>
+        <div className="signUp">
+          <h2>Sign Up to <i>BOB</i></h2>
+        </div>
         <div className="formContent">
-          <form action="">
-            <div>
-            <label>Firstname</label>
-            <input  type="text" />
+          <form action="" className="inputItems">
+            <div className="item">
+              <label>Firstname </label>
+              <input id='name' type="text" />
             </div>
-            <div>
-            <label>Surname</label>
-            <input  type="text" />
+            <div className="item">
+              <label>Surname </label>
+              <input type="text" />
             </div>
-            <div>
-            <label>Username</label>
-            <input  type="text" />
+            <div className="item">
+              <label>Username </label>
+              <input type="text" />
             </div>
-            <div>
-            <label>Phonenumber</label>
-            <input  type="text" />
+            <div className="item">
+              <label>Phonenumber </label>
+              <input type="text" />
             </div>
-            <div>
-            <label>Email</label>
-            <input  type="email" />
+            <div className="item">
+              <label>Email </label>
+              <input type="email" />
             </div>
-            <div>
-            <label>Password</label>
-            <input  type="password" />
+            <div className="item">
+              <label>Password </label>
+              <input type="password" />
             </div>
-            <div>
-            <label>Confirm password</label>
-            <input  type="password" />
+            <div className="item">
+              <label>Confirm password </label>
+              <input type="password" />
             </div>
-            <div>
-           
-            <input  type="submit" value='SIGN UP' />
+            <div className="submitDiv">
+              <input type="submit" className="submit" onClick={()=>alert('hi')} value="SIGN UP" />
             </div>
           </form>
-            <span>Already have an account? <i>sign in</i></span>
-                              </div>
+
+          <span>
+            Already have an account? <i className="i">Sign in</i>
+          </span>
+        </div>
       </div>
-    
     </div>
-  )
+  );
 }
 
-export default Register
+export default Register;

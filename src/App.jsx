@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route element={<Apage/>} path='/register'/>
+      <Route element={<Background/>} path='/register'/>
     </Routes>
     </BrowserRouter>
   )

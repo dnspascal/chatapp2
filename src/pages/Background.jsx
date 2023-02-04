@@ -6,7 +6,9 @@ function Background() {
     <div>
     
 <div className="area" >
-        <ul class="circles">
+        <ul className="circles">
+                <li></li>
+               <Register/>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -16,7 +18,7 @@ function Background() {
                 <li></li>
                 <li></li>
                 <li></li>
-                <li></li>
+                
         </ul>
 </div>
 

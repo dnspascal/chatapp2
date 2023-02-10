@@ -1,0 +1,19 @@
+.firstPage{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    overflow:hidden;
+
+}
+.topper{
+
+
+
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    flex:9;
+    height:100%;
+
+}

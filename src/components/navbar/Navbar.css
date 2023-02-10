@@ -1,0 +1,43 @@
+.navbar{
+    display:flex;
+    flex-direction: row;
+    background-color: #262c2c;
+
+    color:wheat;
+    justify-content:space-between;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px lightgray;
+
+}
+.darkmode{
+    gap:10px;
+
+
+
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputs{
+
+    display:flex;
+    background-color: white;
+    color:blue;
+    align-items:center;
+    border-radius:10px;
+}
+
+input{
+    border:none;
+    outline:none;
+}
+.morevert{
+    margin-left:20px;
+    cursor:pointer;
+}
+.darkicon{
+    color: #49494f;
+    cursor:pointer;
+}
